@@ -65,3 +65,41 @@ botonCambiarColor.addEventListener("click",
 function(){
     alert("Hola, has presionado el boton para cambiar el color");
 })
+
+
+
+
+//Referenciar boton
+// const botoncambiarcolor = document.querySelector("#cambiarColor");
+
+// botoncambiarcolor.addEventListener("click", 
+// function(){
+//     alert("Has presionado el boton para cambiar el color");
+// } )
+
+
+/*
+Elementos para crear y agregar elementos
+
+1 Se crean
+2 Se agregan
+
+//Sintaxis para crear elementos
+elementoPadre.createElement("tipoDeElemento");
+
+
+*/
+
+//Para crear elementos createElement()
+const div = document.createElement("div");
+
+//Para insertarlo appendchild
+document.body.appendChild(div);
+
+//Codigo para agregar una imagen a mi documento
+var appendImg = document.createElement("img");
+appendImg.src = "./img/meme2.jpg";
+appendImg.alt = "Imagen sorpresa";
+
+//2do insertar
+document.body.appendChild(appendImg);
